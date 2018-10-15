@@ -4,19 +4,20 @@
 ## 概要
 自然言語処理における、単語、文などの類似度を計算する指標をまとめた。
 
+## 類似度指標
 
 ### 集合の類似度
 文書を分かち書きしてリスト化したものを用意し、2つのリスト(集合)の類似度を求める。
-**キーワード**: Jaccard係数、Dice係数、Simpson係数
+***キーワード***: Jaccard係数、Dice係数、Simpson係数
 
 
 ### 単語同士の類似度（ベクトル）
 単語をベクトル化した値(分散表現)を活用して2つの単語間の類似度を求める。
-**キーワード**: cos類似度、ユークリッド距離
+***キーワード***: cos類似度、ユークリッド距離
 
 
 ### 文書同士の類似度（ベクトル）
 単語をベクトル化した値(分散表現)を活用して2つの単語間の類似度を求める。
-**キーワード**: cos類似度、Jensen-Shannon-Divergense(jsd)、Hellinger距離、Kullback-Leibler距離、Symmetric
+***キーワード***: cos類似度、Jensen-Shannon-Divergense(jsd)、Hellinger距離、Kullback-Leibler距離、Symmetric
 
 
