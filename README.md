@@ -13,11 +13,11 @@
 
 
 ### 単語同士の類似度（ベクトル）
-***キーワード***: cos類似度、ユークリッド距離
+***キーワード***: cos類似度、ユークリッド距離、ミンコフスキー距離、マンハッタン距離、チェビシフ距離、ハミング距離
 
 単語をベクトル化した値(分散表現)を活用して2つの単語間の類似度を求める。
 
 ### 文書同士の類似度（ベクトル）
-***キーワード***: cos類似度、Jensen-Shannon-Divergense(jsd)、Hellinger距離、Kullback-Leibler距離、Symmetric
+***キーワード***: cos類似度、Jensen-Shannon-Divergense(jsd)、Kullback-Leibler距離、Hellinger距離、HistogramIntersection
 
 単語をベクトル化した値(分散表現)を活用して2つの単語間の類似度を求める。
